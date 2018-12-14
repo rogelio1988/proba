@@ -1,0 +1,38 @@
+{
+    "text": "Quieres ver mis colas?",
+    "attachments": [
+        {
+            "text": "Que cola quieres ver",
+            "fallback": "Debes escoger una cola",
+            "callback_id": "colas",
+            "color": "#3AA3E3",
+            "attachment_type": "default",
+            "actions": [
+                {
+                    "name": "cola",
+                    "text": "cac-st",
+                    "type": "button",
+                    "value": "st"
+                },
+                {
+                    "name": "cola",
+                    "text": "cac-cierre",
+                    "type": "button",
+                    "value": "cierre"
+                },
+                {
+                    "name": "cola",
+                    "text": "cac-provision",
+                    "type": "button",
+                    "value": "provision",
+                    "confirm": {
+                        "title": "seguro?",
+                        "text": "Te voy a enseñar mi cola",
+                        "ok_text": "Si",
+                        "dismiss_text": "No"
+                    }
+                }
+            ]
+        }
+    ]
+}
